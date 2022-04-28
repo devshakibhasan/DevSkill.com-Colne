@@ -1,17 +1,16 @@
 
 
 
-import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Home from './Components/Home/Home';
+
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-      
-       <h1>Hello</h1>
-       <h1>Hello</h1>
-      </header>
+      <Home />
     </div>
 
   );
