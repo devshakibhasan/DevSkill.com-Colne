@@ -206,6 +206,26 @@ export default class Home extends Component {
             </Container>
 
           </div>
+
+          <div className='member'>
+            <Container>
+              <Row>
+                <Col>
+                <h1>Become a Dev Skill Member </h1>
+                <h5>Benefits</h5>
+                <p>Earn dev coins which can be used to purchase gadgets or cash out in BDT </p>
+                <p>Get notified vai email, about upcoming course/contest/event </p>
+                <p> Get latest news of the IT industry  </p>
+                <p>Your own dashboard to access your course details, assignments, etc.</p>
+                <Button className='d-btn'>Become a Member</Button>
+                </Col>
+                <Col>
+              
+                </Col>
+              </Row>
+            </Container>
+            <img src='https://devskill.com/img/undraw_dashboard_nklg.svg'></img>
+          </div>
         </div>
 
 
