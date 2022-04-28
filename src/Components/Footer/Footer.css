@@ -1,0 +1,21 @@
+.footer {
+    text-align: left;
+}
+.footer h6{
+    color: #6A6776;
+}
+.footer h5{
+    color: #197FC3;
+}
+.footer a {
+  text-decoration: none;
+}
+.footer-bottom {
+    margin-top: 50px;
+    padding-top: 20px;
+    padding-bottom: 80px;
+ border-top: 1px solid #E7E6F0;
+}
+.footer-bottom h5{
+text-align: right;
+}

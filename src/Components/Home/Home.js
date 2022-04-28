@@ -1,6 +1,7 @@
 
 import React, { Component } from 'react';
 import { Container, Row, Col, Button, Card } from 'react-bootstrap';
+import Footer from '../Footer/Footer';
 import NavbarCom from '../Navbar/NavbarCom';
 import './Home.css'
 export default class Home extends Component {
@@ -230,7 +231,7 @@ export default class Home extends Component {
           <div className='young-member'>
             <Container>
               <Row>
-              <Col>
+                <Col>
                   <h1>Enlighten young hearts!</h1>
                   <h5>Become a mentor and share your knowledge. Help us to build a better Bangladesh! </h5>
                   <p>Earn money, get paid monthly  </p>
@@ -240,12 +241,14 @@ export default class Home extends Component {
                   <Button className='d-btn'>Become a Mentor</Button>
                 </Col>
                 <Col>
-               
+
                 </Col>
               </Row>
             </Container>
             <img src='https://devskill.com/img/img_why_teach.png'></img>
           </div>
+
+       <footer><Footer></Footer></footer>
         </div>
 
 
