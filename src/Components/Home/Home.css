@@ -101,3 +101,19 @@ p {
     float: right;
 }
 
+.courses-body {
+   text-align: left;
+   margin-bottom: -600px;
+}
+.courses img{
+    float: left;
+
+}
+.course-left img{
+   width: 100px;
+   height: 36rem;
+}
+.card {
+    background-color: transparent;
+    border: none;
+}
