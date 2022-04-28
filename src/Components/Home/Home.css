@@ -412,3 +412,7 @@ Card 2 design */
     position: relative;
 }
 
+.circle {
+    background-color: #fff;
+    color: #28A745;
+}

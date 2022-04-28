@@ -1,5 +1,9 @@
 import React, { Component } from 'react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCoffee } from '@fortawesome/free-solid-svg-icons'
+import { faFacebook } from '@fortawesome/free-brands-svg-icons';
 import { Container, Row, Col, Button, Card } from 'react-bootstrap';
+
 import './Footer.css'
 export default class Footer extends Component {
   render() {
@@ -51,7 +55,7 @@ export default class Footer extends Component {
             <Row className='footer-bottom'>
               <Col>© 2022 Dev Skill </Col>
               <Col>
-              <a href='#'><h5>Facebook Page</h5></a>
+              <a href='#'><h5> <FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon> Facebook Page</h5></a>
               </Col>
             </Row>
           </Container>

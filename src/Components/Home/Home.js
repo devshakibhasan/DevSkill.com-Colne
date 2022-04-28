@@ -1,9 +1,14 @@
 
 import React, { Component } from 'react';
 import { Container, Row, Col, Button, Card } from 'react-bootstrap';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+
+import { faFacebook } from '@fortawesome/free-brands-svg-icons';
+
 import Footer from '../Footer/Footer';
 import NavbarCom from '../Navbar/NavbarCom';
 import './Home.css'
+import { faCheckCircle, faCircle } from '@fortawesome/free-solid-svg-icons';
 export default class Home extends Component {
   render() {
     return (
@@ -199,7 +204,7 @@ export default class Home extends Component {
                       <Card.Title className='card-text'>
                         Facebook group · 49,047 members
                       </Card.Title>
-                      <Button variant="primary" size="lg">Visit group</Button>
+                      <Button variant="primary" size="lg"><FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon> Visit group</Button>
                     </Card.Body>
                   </Card>
                 </Col>
@@ -214,10 +219,10 @@ export default class Home extends Component {
                 <Col>
                   <h1>Become a Dev Skill Member </h1>
                   <h5>Benefits</h5>
-                  <p>Earn dev coins which can be used to purchase gadgets or cash out in BDT </p>
-                  <p>Get notified vai email, about upcoming course/contest/event </p>
-                  <p> Get latest news of the IT industry  </p>
-                  <p>Your own dashboard to access your course details, assignments, etc.</p>
+                  <p><FontAwesomeIcon icon={faCheckCircle} className='circle' />  Earn dev coins which can be used to purchase gadgets or cash out in BDT </p>
+                  <p> <FontAwesomeIcon icon={faCheckCircle} className='circle'/> Get notified vai email, about upcoming course/contest/event </p>
+                  <p> <FontAwesomeIcon icon={faCheckCircle} className='circle'/> Get latest news of the IT industry  </p>
+                  <p><FontAwesomeIcon icon={faCheckCircle} className='circle'/> Your own dashboard to access your course details, assignments, etc.</p>
                   <Button className='d-btn'>Become a Member</Button>
                 </Col>
                 <Col>
@@ -234,10 +239,10 @@ export default class Home extends Component {
                 <Col>
                   <h1>Enlighten young hearts!</h1>
                   <h5>Become a mentor and share your knowledge. Help us to build a better Bangladesh! </h5>
-                  <p>Earn money, get paid monthly  </p>
-                  <p>Full freedom to conduct course at your own way </p>
-                  <p> Engage with the community of more than 10000 members </p>
-                  <p>Get help from our professional trainers during the course creation process </p>
+                  <p><FontAwesomeIcon icon={faCheckCircle} className='circle'/> Earn money, get paid monthly  </p>
+                  <p><FontAwesomeIcon icon={faCheckCircle} className='circle'/> Full freedom to conduct course at your own way </p>
+                  <p><FontAwesomeIcon icon={faCheckCircle} className='circle'/> Engage with the community of more than 10000 members </p>
+                  <p><FontAwesomeIcon icon={faCheckCircle} className='circle' /> Get help from our professional trainers during the course creation process </p>
                   <Button className='d-btn'>Become a Mentor</Button>
                 </Col>
                 <Col>
