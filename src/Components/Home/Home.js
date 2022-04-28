@@ -22,7 +22,7 @@ export default class Home extends Component {
               </Col>
             </Row>
 
-            <Row className='skills'>
+            <Row className='skills skills1'>
               <h1>Why Dev Skill?</h1>
               <Col>
                 <h3 className='one'>Experienced Instructors</h3>

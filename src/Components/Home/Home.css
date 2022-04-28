@@ -46,6 +46,12 @@ p {
 }
 
 .skills {
+  
+    text-align: left;
+
+}
+.skills1 {
+  margin-top: 100px;
     text-align: left;
 
 }
