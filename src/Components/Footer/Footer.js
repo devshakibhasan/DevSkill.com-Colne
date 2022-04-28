@@ -55,7 +55,7 @@ export default class Footer extends Component {
             <Row className='footer-bottom'>
               <Col>© 2022 Dev Skill </Col>
               <Col>
-              <a href='#'><h5> <FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon> Facebook Page</h5></a>
+              <a href='#'><h5> Find us on <FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon> </h5></a>
               </Col>
             </Row>
           </Container>

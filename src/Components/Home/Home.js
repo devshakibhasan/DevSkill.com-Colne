@@ -8,7 +8,7 @@ import { faFacebook } from '@fortawesome/free-brands-svg-icons';
 import Footer from '../Footer/Footer';
 import NavbarCom from '../Navbar/NavbarCom';
 import './Home.css'
-import { faCheckCircle, faCircle } from '@fortawesome/free-solid-svg-icons';
+import { faCheckCircle, faCircle, faGraduationCap } from '@fortawesome/free-solid-svg-icons';
 export default class Home extends Component {
   render() {
     return (
@@ -57,6 +57,14 @@ export default class Home extends Component {
                 <img src='https://devskill.com/img/students.png'></img>
               </Col>
               <h1>Upcoming</h1>
+              <div className='course-icons'>
+                <div className='course-icon'>
+                  <FontAwesomeIcon icon={faGraduationCap}></FontAwesomeIcon>
+                </div>
+
+                <h6>   COURSES <a href=''> <span>See All</span></a> </h6>
+              </div>
+
             </Row>
 
 
@@ -78,7 +86,10 @@ export default class Home extends Component {
                     </Col>
                     <Col className='course-right' lg="10">
                       <h5> UI and UX Design for APP and Website </h5>
-                      <div></div>
+
+                      <div className='beginner'>
+                        <h6>Beginner </h6>
+                      </div>
                       <p className='course-dec'>This course has been designed with effective practical components that makes you a professional/ commercial UI designer. From the Information architecture to Sketch to Wireframe to prototype and UI de... </p>
                       <Row>
                         <Col>
@@ -125,7 +136,10 @@ export default class Home extends Component {
                     </Col>
                     <Col className='course-right' lg="10">
                       <h5>  Web Application Development with Laravel  </h5>
-                      <div></div>
+                      <div className='beginner'>
+                        <h6>Beginner </h6>
+                      </div>
+
                       <p className='course-dec'>বর্তমানে ওয়েব অ্যাপ্লিকেশন ডেভেলপমেন্ট এর একটি জনপ্রিয় ও বহুল ব্যবহৃত ফ্রেমওয়ার্ক হলো লারাভেল। অনেকেই বেসিক না জেনে এবং এলোমেলোভাবে শেখার কারণে বেশি দূর আগাতে পারেনা। আমাদের এই কোর্সটি এর মাধ্যমে একজন...  </p>
                       <Row>
                         <Col>
@@ -204,7 +218,7 @@ export default class Home extends Component {
                       <Card.Title className='card-text'>
                         Facebook group · 49,047 members
                       </Card.Title>
-                      <Button variant="primary" size="lg"><FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon> Visit group</Button>
+                      <Button variant="primary" size="lg" ><FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon> Visit group</Button>
                     </Card.Body>
                   </Card>
                 </Col>
@@ -220,9 +234,9 @@ export default class Home extends Component {
                   <h1>Become a Dev Skill Member </h1>
                   <h5>Benefits</h5>
                   <p><FontAwesomeIcon icon={faCheckCircle} className='circle' />  Earn dev coins which can be used to purchase gadgets or cash out in BDT </p>
-                  <p> <FontAwesomeIcon icon={faCheckCircle} className='circle'/> Get notified vai email, about upcoming course/contest/event </p>
-                  <p> <FontAwesomeIcon icon={faCheckCircle} className='circle'/> Get latest news of the IT industry  </p>
-                  <p><FontAwesomeIcon icon={faCheckCircle} className='circle'/> Your own dashboard to access your course details, assignments, etc.</p>
+                  <p> <FontAwesomeIcon icon={faCheckCircle} className='circle' /> Get notified vai email, about upcoming course/contest/event </p>
+                  <p> <FontAwesomeIcon icon={faCheckCircle} className='circle' /> Get latest news of the IT industry  </p>
+                  <p><FontAwesomeIcon icon={faCheckCircle} className='circle' /> Your own dashboard to access your course details, assignments, etc.</p>
                   <Button className='d-btn'>Become a Member</Button>
                 </Col>
                 <Col>
@@ -239,9 +253,9 @@ export default class Home extends Component {
                 <Col>
                   <h1>Enlighten young hearts!</h1>
                   <h5>Become a mentor and share your knowledge. Help us to build a better Bangladesh! </h5>
-                  <p><FontAwesomeIcon icon={faCheckCircle} className='circle'/> Earn money, get paid monthly  </p>
-                  <p><FontAwesomeIcon icon={faCheckCircle} className='circle'/> Full freedom to conduct course at your own way </p>
-                  <p><FontAwesomeIcon icon={faCheckCircle} className='circle'/> Engage with the community of more than 10000 members </p>
+                  <p><FontAwesomeIcon icon={faCheckCircle} className='circle' /> Earn money, get paid monthly  </p>
+                  <p><FontAwesomeIcon icon={faCheckCircle} className='circle' /> Full freedom to conduct course at your own way </p>
+                  <p><FontAwesomeIcon icon={faCheckCircle} className='circle' /> Engage with the community of more than 10000 members </p>
                   <p><FontAwesomeIcon icon={faCheckCircle} className='circle' /> Get help from our professional trainers during the course creation process </p>
                   <Button className='d-btn'>Become a Mentor</Button>
                 </Col>
@@ -253,7 +267,7 @@ export default class Home extends Component {
             <img src='https://devskill.com/img/img_why_teach.png'></img>
           </div>
 
-       <footer><Footer></Footer></footer>
+          <footer><Footer></Footer></footer>
         </div>
 
 

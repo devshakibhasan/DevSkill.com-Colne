@@ -119,13 +119,58 @@ p {
 .courses {
     height: 30px;
 
+}
 
+.course-icons {
+    display: flex;
+}
+
+.course-icons h6 {
+    justify-content: center;
+    align-items: center;
+    margin-top: 8px;
+    margin-left: 10px;
+    font-size: 16px;
+}
+
+.course-icons h6 a {
+    text-decoration: none;
+}
+
+.course-icons h6 span {
+    justify-content: center;
+    align-items: center;
+    margin-top: 8px;
+    margin-left: 10px;
+    color: #000;
+}
+
+.course-icon {
+    height: 35px;
+    width: 35px;
+    border: 1px solid #8A2561;
+    border-radius: 50px;
+    color: #8D2C67;
+    justify-content: center;
+    align-items: center;
+    padding-left: 8px;
+    padding-top: 4px;
+    background-color: #F5F5FA;
 }
 
 .courses h1 {
     text-align: left;
+}
 
-
+.beginner {
+    background-color: #E9C46B;
+    width: 20%;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 6%;
+    border-radius: 3px;
 }
 
 .courses img {
@@ -144,13 +189,13 @@ p {
 }
 
 .card .course-right {
-    margin-left: -30px;
+    margin-left: -40px;
 
 }
 
 
 .card img {
-    height: 26rem;
+    height: 28rem;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
 }
@@ -183,15 +228,15 @@ p {
 
 .course-bottom {
     background-color: #E7E6F0;
-    height: 80px;
-    margin-left: -44px;
+    height: 85px;
+    margin-left: -34px;
     display: flex;
     justify-content: flex-end;
     align-items: center;
 }
 
 .course-bottom1 {
-    height: 73px;
+    height: 76px;
 }
 
 .course-bottom button {
@@ -217,7 +262,7 @@ Card 2 design */
 }
 
 .card2 img {
-    height: 24rem;
+    height: 26rem;
 
 }
 
@@ -383,17 +428,20 @@ Card 2 design */
     text-align: left;
     margin-bottom: 100px;
 }
-.young-member h1{
+
+.young-member h1 {
     margin-top: 100px;
     font-size: 50px;
     font-weight: 600;
 }
-.young-member h5{
- 
+
+.young-member h5 {
+
     font-size: 20px;
     font-weight: 700;
     width: 80%;
 }
+
 .young-member .d-btn {
     background-color: #197FC3;
 }
