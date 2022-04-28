@@ -50,19 +50,27 @@ export default class Home extends Component {
               <Col>
                 <img src='https://devskill.com/img/students.png'></img>
               </Col>
-            </Row>
-            <Container className='courses-body'>
               <h1>Upcoming</h1>
+            </Row>
+
+
+          
+          </Container>
+          <div className='courses'>
+            <img src='https://devskill.com/img/bg_upcoming_left.svg'></img>
+    
+            <Container className='courses-body'>
+           
               <Card style={{
-                width: '36rem', height: '36rem'
+                width: '37rem', height: '36rem'
               }}>
 
                 <Card.Body className='card'>
                   <Row>
-                    <Col className='course-left' lg="3">
+                    <Col className='course-left' lg="2">
                       <img src='https://devskillpublicfiles.s3.ap-southeast-1.amazonaws.com/uploads/websiteimages/coursecontents/21xwzm0jtfj.png' style={{ width: '7rem' }}></img>
                     </Col>
-                    <Col className='course-right' lg="9">
+                    <Col className='course-right' lg="10">
                       <h5> UI and UX Design for APP and Website </h5>
                       <div></div>
                       <p className='course-dec'>This course has been designed with effective practical components that makes you a professional/ commercial UI designer. From the Information architecture to Sketch to Wireframe to prototype and UI de... </p>
@@ -84,11 +92,11 @@ export default class Home extends Component {
                         </Col>
                         <Col>
                           <p>Schedule</p>
-                          <p className='bold'> Sun and Tue 09:00 PM - 11:00 PM </p>
+                          <p className='bold bold2'> Sun and Tue 09:00 PM - 11:00 PM </p>
                           <p> Starts from May 10, 2022 </p>
                         </Col>
                       </Row>
-                      <div className='course-bottom'>
+                      <div className='course-bottom course-bottom1'>
                         <Button>Register Now</Button>
                         <Button>See Details</Button>
                       </div>
@@ -101,15 +109,15 @@ export default class Home extends Component {
 
 
               <Card style={{
-                width: '36rem', height: '30rem'
+                width: '37rem', height: '30rem'
               }} className="card2">
 
                 <Card.Body className='card '>
                   <Row>
-                    <Col className='course-left' lg="3">
+                    <Col className='course-left' lg="2">
                       <img src='https://devskillpublicfiles.s3.ap-southeast-1.amazonaws.com/uploads/websiteimages/coursecontents/jc0jhhgdckh.png' style={{ width: '7rem' }}></img>
                     </Col>
-                    <Col className='course-right' lg="9">
+                    <Col className='course-right' lg="10">
                       <h5>  Web Application Development with Laravel  </h5>
                       <div></div>
                       <p className='course-dec'>বর্তমানে ওয়েব অ্যাপ্লিকেশন ডেভেলপমেন্ট এর একটি জনপ্রিয় ও বহুল ব্যবহৃত ফ্রেমওয়ার্ক হলো লারাভেল। অনেকেই বেসিক না জেনে এবং এলোমেলোভাবে শেখার কারণে বেশি দূর আগাতে পারেনা। আমাদের এই কোর্সটি এর মাধ্যমে একজন...  </p>
@@ -122,7 +130,7 @@ export default class Home extends Component {
                           <p></p>
                         </Col>
                       </Row>
-                   
+
                       <Row>
                         <Col>
                           <p>Registration</p>
@@ -149,18 +157,12 @@ export default class Home extends Component {
 
 
             </Container>
+          </div>
 
-          </Container>
-
-        </div>
-        <div className='courses'>
-          <img src='https://devskill.com/img/bg_upcoming_left.svg'></img>
 
         </div>
-        <div className='article'>
-         
 
-        </div>
+
 
       </div>
     )

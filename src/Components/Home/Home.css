@@ -111,6 +111,12 @@ p {
 
 .courses  {
     height: 30px;
+   
+
+}
+.courses  h1{
+  text-align: left;
+   
 
 }
 .courses img {
@@ -125,14 +131,16 @@ p {
     background-color: transparent;
     border: none;
     height: 28rem;
+    margin-left: -50px;
 }
 .card .course-right{
-    background-color: #fff;
+    margin-left: -30px;
   
 }
 
+
 .card img {
-    height: 28rem;
+    height: 26rem;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
 }
@@ -155,15 +163,23 @@ p {
 
 .card .bold {
     font-weight: bold;
+    
+}
+.card .bold2 {
+   font-size: 13px;
+    
 }
 
 .course-bottom {
     background-color: #E7E6F0;
     height: 80px;
-    margin-left: -30px;
+    margin-left: -44px;
     display: flex;
     justify-content: flex-end;
     align-items: center;
+}
+.course-bottom1 {
+    height: 73px;
 }
 
 .course-bottom button {
@@ -189,7 +205,7 @@ Card 2 design */
 }
 
 .card2 img {
-    height: 27rem;
+    height: 24rem;
 
 }
 
@@ -197,10 +213,4 @@ Card 2 design */
 .card2 .bold2 {
     font-size: 13px;
 
-}
-.article {
-    background-color: #FFFFFF;
-    height: 500px;
-    margin-top: 860px;
-    position: relative;
 }
