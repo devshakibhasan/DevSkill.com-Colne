@@ -109,16 +109,18 @@ p {
     margin-bottom: -500px;
 }
 
-.courses  {
+.courses {
     height: 30px;
-   
+
 
 }
-.courses  h1{
-  text-align: left;
-   
+
+.courses h1 {
+    text-align: left;
+
 
 }
+
 .courses img {
     float: left;
     margin-left: -80px;
@@ -133,9 +135,10 @@ p {
     height: 28rem;
     margin-left: -50px;
 }
-.card .course-right{
+
+.card .course-right {
     margin-left: -30px;
-  
+
 }
 
 
@@ -163,11 +166,12 @@ p {
 
 .card .bold {
     font-weight: bold;
-    
+
 }
+
 .card .bold2 {
-   font-size: 13px;
-    
+    font-size: 13px;
+
 }
 
 .course-bottom {
@@ -178,6 +182,7 @@ p {
     justify-content: flex-end;
     align-items: center;
 }
+
 .course-bottom1 {
     height: 73px;
 }
@@ -213,4 +218,117 @@ Card 2 design */
 .card2 .bold2 {
     font-size: 13px;
 
+}
+
+.article {
+    height: 500px;
+    background-color: #fff;
+    position: relative;
+    margin-top: 890px;
+
+}
+
+
+
+.article-body h3 {
+
+    text-align: left;
+    justify-content: left;
+    position: absolute;
+    margin-top: 50px;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.article-body h3 a  {
+    text-decoration: none;
+
+}
+.article-body h3 a span {
+
+
+    font-size: 20px;
+    color: #197FC3;
+    text-decoration: none;
+
+}
+
+.article-body .title-1 {
+
+    text-align: left;
+    justify-content: left;
+    position: absolute;
+    margin-top: 150px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.article-body .title {
+
+    color: #197FC3;
+    font-weight: 500;
+}
+
+.article-body .title-2 {
+
+    text-align: left;
+    justify-content: left;
+    position: absolute;
+    margin-top: 250px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.article-body .title-3 {
+
+    text-align: left;
+    justify-content: left;
+    position: absolute;
+    margin-top: 350px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.article-body .title-4 {
+
+    text-align: left;
+    justify-content: left;
+    position: absolute;
+    margin-top: 450px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.community{
+    margin-top: 100px;
+    text-align: left;
+}
+.community p{
+   
+    text-align: left;
+    width: 55%;
+}
+.cards {
+    border: 1px solid gainsboro;
+}
+.card-title {
+    font-size: 16px;
+    text-align: center;
+    font-weight: 700;
+}
+.card-text {
+    text-align: center;
+    width: 100%;
+    font-weight: normal;
+}
+.cards button {
+    text-align: center;
+    width: 100%;
+    height: 35px;
+    font-size: 16px;
+    justify-content: center;
+    align-items: center;
+    font-weight: normal;
+    padding-bottom: 10px;
+    background-color: #4267B2;
 }

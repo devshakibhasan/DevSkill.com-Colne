@@ -54,13 +54,13 @@ export default class Home extends Component {
             </Row>
 
 
-          
+
           </Container>
           <div className='courses'>
             <img src='https://devskill.com/img/bg_upcoming_left.svg'></img>
-    
+
             <Container className='courses-body'>
-           
+
               <Card style={{
                 width: '37rem', height: '36rem'
               }}>
@@ -158,8 +158,54 @@ export default class Home extends Component {
 
             </Container>
           </div>
+          <div className='article'>
+            <Container className='article-body'>
+              <h3>Articles <a href='#'><span>See All Articles</span></a>  </h3>
+              <div className='title-1'>
+                <p className='title'>SIEM Technology and Splunk</p>
+                <p>April 10, 2022</p>
+              </div>
+              <div className='title-2'>
+                <p className='title'>আমার যত ইন্টারভিউ</p>
+                <p>February 28, 2022</p>
+              </div>
+              <div className='title-3'>
+                <p className='title'>বিভিন্ন কমন প্রশ্ন ও উত্তর</p>
+                <p>February 28, 2022</p>
+              </div>
+              <div className='title-4'>
+                <p className='title'>যদি প্রোগ্রামিং লাইনে ক্যারিয়ার তৈরি করতে চান…</p>
+                <p>February 28, 2022</p>
+              </div>
+            </Container>
 
+          </div>
 
+          <div className='community'>
+
+            <Container>
+              <h1>Dev Skill Facebook Community</h1>
+              <Row>
+                <Col lg='8'>
+                  <p>Over 47,000+ tech enthusiasts are waiting to answer your queries. Join us and be part of an active tech community.</p>
+                  <img src='https://devskill.com/img/img_cover_fb_community.svg'></img>
+                </Col>
+                <Col lg='3'>
+                  <Card style={{ width: '25rem' }} className="cards">
+                    <Card.Img variant="top" src="https://scontent.fcgp17-1.fna.fbcdn.net/v/t31.18172-8/24799279_10155913205089231_1667249786903915870_o.jpg?stp=dst-jpg_p75x225&_nc_cat=101&ccb=1-5&_nc_sid=ac9ee4&_nc_ohc=yJrOv-o2UowAX9f29y9&_nc_ht=scontent.fcgp17-1.fna&edm=AFPXBHUEAAAA&oh=00_AT9Ivk2tKyNWw9RVWoL54W5S24OfHkn_WqmjCuc40MbqZA&oe=628F41DA" />
+                    <Card.Body>
+                      <Card.Title className='card-title'>Dev Skill - সফটওয়্যার ইঞ্জিনিয়ারিং ট্রেনিং</Card.Title>
+                      <Card.Title className='card-text'>
+                      Facebook group · 49,047 members
+                      </Card.Title>
+                      <Button variant="primary" size="lg">Visit group</Button>
+                    </Card.Body>
+                  </Card>
+                </Col>
+              </Row>
+            </Container>
+
+          </div>
         </div>
 
 
