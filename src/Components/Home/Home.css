@@ -58,11 +58,12 @@ p {
 }
 
 .skills h1 {
- 
+
     font-weight: bold;
-  
+
 
 }
+
 .skills h3 {
     padding: 30px 0 8px;
     position: relative;
@@ -91,10 +92,12 @@ p {
 .skills .three::before {
     background: #F0D697;
 }
+
 .skills h4 {
     font-weight: bold;
     margin-top: 250px;
 }
+
 .skills img {
     margin-top: 150px;
     height: 380px;
@@ -102,18 +105,102 @@ p {
 }
 
 .courses-body {
-   text-align: left;
-   margin-bottom: -600px;
+    text-align: left;
+    margin-bottom: -500px;
 }
-.courses img{
-    float: left;
+
+.courses  {
+    height: 30px;
 
 }
-.course-left img{
-   width: 100px;
-   height: 36rem;
+.courses img {
+    float: left;
+    margin-left: -80px;
+
+
 }
+
+/* Card 1 design */
 .card {
     background-color: transparent;
     border: none;
+    height: 28rem;
+}
+.card .course-right{
+    background-color: #fff;
+  
+}
+
+.card img {
+    height: 28rem;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.card .course-dec {
+    text-align: justify;
+    color: gray;
+}
+
+.card .red {
+    color: #B01625;
+    text-decoration: line-through;
+}
+
+.card .red2 {
+    color: #B01625;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.card .bold {
+    font-weight: bold;
+}
+
+.course-bottom {
+    background-color: #E7E6F0;
+    height: 80px;
+    margin-left: -30px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.course-bottom button {
+    height: 35px;
+    border: 1px solid #5EA5D5;
+    background-color: transparent;
+    color: #000;
+    font-weight: 400;
+}
+
+.course-bottom button:hover {
+    background-color: #197FC3;
+    color: #000;
+
+}
+
+/* 
+Card 2 design */
+
+.card2 {
+    margin-top: -100px;
+    margin-bottom: -900px;
+}
+
+.card2 img {
+    height: 27rem;
+
+}
+
+
+.card2 .bold2 {
+    font-size: 13px;
+
+}
+.article {
+    background-color: #FFFFFF;
+    height: 500px;
+    margin-top: 860px;
+    position: relative;
 }

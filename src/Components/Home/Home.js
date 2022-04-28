@@ -53,27 +53,101 @@ export default class Home extends Component {
             </Row>
             <Container className='courses-body'>
               <h1>Upcoming</h1>
-              <Card style={{ width: '36rem', height: '36rem'
-             }}>
+              <Card style={{
+                width: '36rem', height: '36rem'
+              }}>
 
                 <Card.Body className='card'>
                   <Row>
-                    <Col className='course-left' >
-                      <img src='https://devskillpublicfiles.s3.ap-southeast-1.amazonaws.com/uploads/websiteimages/coursecontents/21xwzm0jtfj.png'></img>
+                    <Col className='course-left' lg="3">
+                      <img src='https://devskillpublicfiles.s3.ap-southeast-1.amazonaws.com/uploads/websiteimages/coursecontents/21xwzm0jtfj.png' style={{ width: '7rem' }}></img>
                     </Col>
-                    <Col >
-                    <h5> UI and UX Design for APP and Website </h5>
-                    <div></div>
-                    <p>This course has been designed with effective practical components that makes you a professional/ commercial UI designer. From the Information architecture to Sketch to Wireframe to prototype and UI de... </p>
+                    <Col className='course-right' lg="9">
+                      <h5> UI and UX Design for APP and Website </h5>
+                      <div></div>
+                      <p className='course-dec'>This course has been designed with effective practical components that makes you a professional/ commercial UI designer. From the Information architecture to Sketch to Wireframe to prototype and UI de... </p>
+                      <Row>
+                        <Col>
+                          <p className='red'>Tk. 15,000</p>
+                        </Col>
+                        <Col>
+
+                          <p>Tk. 12,000</p>
+                        </Col>
+                      </Row>
+                      <p className='red red2'>20% discount offer valid for 2 more days only</p>
+                      <Row>
+                        <Col>
+                          <p>Registration</p>
+                          <p className='bold'>2 Days Remaining</p>
+                          <p> 16 people already registered</p>
+                        </Col>
+                        <Col>
+                          <p>Schedule</p>
+                          <p className='bold'> Sun and Tue 09:00 PM - 11:00 PM </p>
+                          <p> Starts from May 10, 2022 </p>
+                        </Col>
+                      </Row>
+                      <div className='course-bottom'>
+                        <Button>Register Now</Button>
+                        <Button>See Details</Button>
+                      </div>
                     </Col>
                   </Row>
 
-                  <Button variant="primary">Go somewhere</Button>
+
                 </Card.Body>
               </Card>
 
 
-          
+              <Card style={{
+                width: '36rem', height: '30rem'
+              }} className="card2">
+
+                <Card.Body className='card '>
+                  <Row>
+                    <Col className='course-left' lg="3">
+                      <img src='https://devskillpublicfiles.s3.ap-southeast-1.amazonaws.com/uploads/websiteimages/coursecontents/jc0jhhgdckh.png' style={{ width: '7rem' }}></img>
+                    </Col>
+                    <Col className='course-right' lg="9">
+                      <h5>  Web Application Development with Laravel  </h5>
+                      <div></div>
+                      <p className='course-dec'>বর্তমানে ওয়েব অ্যাপ্লিকেশন ডেভেলপমেন্ট এর একটি জনপ্রিয় ও বহুল ব্যবহৃত ফ্রেমওয়ার্ক হলো লারাভেল। অনেকেই বেসিক না জেনে এবং এলোমেলোভাবে শেখার কারণে বেশি দূর আগাতে পারেনা। আমাদের এই কোর্সটি এর মাধ্যমে একজন...  </p>
+                      <Row>
+                        <Col>
+                          <p className='bold'>Tk. 12,000</p>
+                        </Col>
+                        <Col>
+
+                          <p></p>
+                        </Col>
+                      </Row>
+                   
+                      <Row>
+                        <Col>
+                          <p>Registration</p>
+                          <p className='bold'>2 Days Remaining</p>
+                          <p> 14 people already registered</p>
+                        </Col>
+                        <Col>
+                          <p>Schedule</p>
+                          <p className='bold bold2'> Mon and Wed 09:00 PM - 11:00 PM  </p>
+                          <p> Starts from May 16, 2022  </p>
+                        </Col>
+                      </Row>
+                      <div className='course-bottom'>
+                        <Button>Register Now</Button>
+                        <Button>See Details</Button>
+                      </div>
+                    </Col>
+                  </Row>
+
+
+                </Card.Body>
+              </Card>
+
+
+
             </Container>
 
           </Container>
@@ -81,6 +155,10 @@ export default class Home extends Component {
         </div>
         <div className='courses'>
           <img src='https://devskill.com/img/bg_upcoming_left.svg'></img>
+
+        </div>
+        <div className='article'>
+         
 
         </div>
 
