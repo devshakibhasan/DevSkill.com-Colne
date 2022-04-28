@@ -196,7 +196,7 @@ export default class Home extends Component {
                     <Card.Body>
                       <Card.Title className='card-title'>Dev Skill - সফটওয়্যার ইঞ্জিনিয়ারিং ট্রেনিং</Card.Title>
                       <Card.Title className='card-text'>
-                      Facebook group · 49,047 members
+                        Facebook group · 49,047 members
                       </Card.Title>
                       <Button variant="primary" size="lg">Visit group</Button>
                     </Card.Body>
@@ -211,20 +211,40 @@ export default class Home extends Component {
             <Container>
               <Row>
                 <Col>
-                <h1>Become a Dev Skill Member </h1>
-                <h5>Benefits</h5>
-                <p>Earn dev coins which can be used to purchase gadgets or cash out in BDT </p>
-                <p>Get notified vai email, about upcoming course/contest/event </p>
-                <p> Get latest news of the IT industry  </p>
-                <p>Your own dashboard to access your course details, assignments, etc.</p>
-                <Button className='d-btn'>Become a Member</Button>
+                  <h1>Become a Dev Skill Member </h1>
+                  <h5>Benefits</h5>
+                  <p>Earn dev coins which can be used to purchase gadgets or cash out in BDT </p>
+                  <p>Get notified vai email, about upcoming course/contest/event </p>
+                  <p> Get latest news of the IT industry  </p>
+                  <p>Your own dashboard to access your course details, assignments, etc.</p>
+                  <Button className='d-btn'>Become a Member</Button>
                 </Col>
                 <Col>
-              
+
                 </Col>
               </Row>
             </Container>
             <img src='https://devskill.com/img/undraw_dashboard_nklg.svg'></img>
+          </div>
+
+          <div className='young-member'>
+            <Container>
+              <Row>
+              <Col>
+                  <h1>Enlighten young hearts!</h1>
+                  <h5>Become a mentor and share your knowledge. Help us to build a better Bangladesh! </h5>
+                  <p>Earn money, get paid monthly  </p>
+                  <p>Full freedom to conduct course at your own way </p>
+                  <p> Engage with the community of more than 10000 members </p>
+                  <p>Get help from our professional trainers during the course creation process </p>
+                  <Button className='d-btn'>Become a Mentor</Button>
+                </Col>
+                <Col>
+               
+                </Col>
+              </Row>
+            </Container>
+            <img src='https://devskill.com/img/img_why_teach.png'></img>
           </div>
         </div>
 
