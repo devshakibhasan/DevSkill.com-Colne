@@ -1,0 +1,45 @@
+
+.top-content .top-heading {
+    margin-top: 150px;
+}
+
+.top-heading {
+   font-weight: bold;
+   
+}
+.top-heading,
+p {
+    text-align: left;
+   
+}
+
+.top-content p {
+   float: left;
+   
+}
+
+.top-content .d-btn {
+    background-color: #8A2561;
+    border: none;
+    color: white;
+    float: left;
+    margin-bottom: 10px;
+   margin-right: 50%;
+}
+
+.top-content .d-btn:hover {
+    background-color: #621342;
+    border: none;
+    color: white;
+
+}
+.top-left{
+   margin-left: 130px;
+}
+.top-left h1{
+   padding-bottom: 10px;
+}
+.top-right {
+    float: left;
+  
+}

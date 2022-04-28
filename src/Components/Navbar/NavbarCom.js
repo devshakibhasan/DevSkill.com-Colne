@@ -9,7 +9,7 @@ export default class NavbarCom extends Component {
                 <Navbar  expand="lg" className='navbar'>
                     <Container fluid>
                         <Navbar.Brand href="#">
-                            <img src='https://devskill.com/img/logo.png'></img>
+                            <img src='https://devskill.com/img/logo.png' className='logo'></img>
                         </Navbar.Brand>
                         <Navbar.Toggle aria-controls="navbarScroll" />
                         <Navbar.Collapse id="navbarScroll">
@@ -18,10 +18,10 @@ export default class NavbarCom extends Component {
                                 style={{ maxHeight: '100px' }}
                                 navbarScroll
                             >
-                                <Nav.Link href="#action1" className='navText' >COURSES</Nav.Link>
-                                <Nav.Link href="#action2" className='navText'>BLOGS</Nav.Link>
+                                <Nav.Link href="#action1" className='navText'active >COURSES</Nav.Link>
+                                <Nav.Link href="#action2" className='navText' active>BLOGS</Nav.Link>
 
-                                <Nav.Link href="#" className='navText'>
+                                <Nav.Link href="#" className='navText' active>
                                     FAQ
                                 </Nav.Link>
                             </Nav>
